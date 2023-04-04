@@ -29,17 +29,17 @@ function draw() {
       // size of the star based on the row and column
       let size = (i + j) % 2 == 0 ? 10 : 5;
 
-      // Set the fill color for the star to a random color
+      // random color
       let randomColor = color(random(255), random(255), random(255));
       fill(randomColor);
 
-      // Draw the star
+      //  star
       star(x, y, size);
     }
   }
 }
 
-// Function to draw a star
+// star
 function star(x, y, size) {
   beginShape();
   for (let i = 0; i < 5; i++) {
