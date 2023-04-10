@@ -1,3 +1,5 @@
+Assignment 4 gkehnstrom
+
 For A4Q1 we weere tasked to use a loop to build a symmetric shape, I chose a star. The
 loop had to be packaged inside a custom fcuntion so that you can pass parameter that set atleast 
 one aspect of the star like scale, color, number of points (if you were using a flower it'd be 
